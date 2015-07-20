@@ -1,4 +1,10 @@
 # OakPlay Recreation Booking Assistant
+## SENG299
+
+[![Language](https://img.shields.io/badge/language-JavaScript-red.svg?style=flat
+)](https://www.javascript.com/)
+[![Module](https://img.shields.io/badge/module-Node.js-orange.svg?style=flat
+)](https://nodejs.org/)
 
 To run:
 
@@ -6,9 +12,9 @@ To run:
 
 -install nodejs, npm, and mongodb
 
-$ npm install
+`$ npm install`
 
-$ npm start
+`$ npm start`
 
 -navigate to http://localhost:3000 on a browser of your choice
 
