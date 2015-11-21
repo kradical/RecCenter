@@ -14,6 +14,8 @@ To run:
 
 `$ npm install`
 
+-create a configuration file called config.js which exports your mongodb connection string as "connstring"
+
 `$ node start`
 
 -navigate to http://localhost:3000 on a browser of your choice
