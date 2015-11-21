@@ -10,12 +10,8 @@ var flash = require('connect-flash');
 
 // database
 var mongoose = require('mongoose');
-<<<<<<< HEAD
 var dbinfo = require("./config");
 mongoose.connect(dbinfo.connstring);
-=======
-mongoose.connect('put a mongodb instance here');
->>>>>>> faf9bf651d43060e385a04dd2bdfbda28d0f65b6
 
 require('./database/generate');
 
