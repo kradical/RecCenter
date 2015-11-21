@@ -10,7 +10,8 @@ var flash = require('connect-flash');
 
 // database
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://107.181.168.124:27017/rec');
+var dbinfo = require("./config");
+mongoose.connect(dbinfo.connstring);
 
 require('./database/generate');
 
