@@ -10,11 +10,11 @@ To run:
 
 -Clone repository
 
--install nodejs, npm, and mongodb
+-install nodejs, npm 
 
 `$ npm install`
 
-`$ npm start`
+`$ node start`
 
 -navigate to http://localhost:3000 on a browser of your choice
 
